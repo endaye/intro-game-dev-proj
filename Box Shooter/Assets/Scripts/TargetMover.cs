@@ -4,7 +4,7 @@ using System.Collections;
 public class TargetMover : MonoBehaviour {
 
 	// define the possible states through an enumeration
-	public enum motionDirections {Spin, Horizontal, Vertical};
+	public enum motionDirections {Spin,Horizontal, Vertical};
 	
 	// store the state
 	public motionDirections motionState = motionDirections.Horizontal;
